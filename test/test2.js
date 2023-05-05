@@ -4,7 +4,7 @@
 var should = require('should');
 
 // Cargar el módulo con las funciones para testear
-var operaciones = require('../operations.js');
+var operaciones = require('../ejercicios.js');
 
 // Test
 it('comprobar función resta', function() {
