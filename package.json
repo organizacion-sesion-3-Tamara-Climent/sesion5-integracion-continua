@@ -1,0 +1,28 @@
+{
+  "name": "package.json",
+  "version": "1.1.0",
+  "description": "Ejemplo de Desarrollo Guiado por Test en Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test1": "mocha test/test",
+    "test2": "mocha test/test2"
+  },
+  "author": "Pedro Prieto Alarcón",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "should": "^13.2.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/organizacion-sesion-3-Tamara-Climent/sesion5-integracion-continua.git"
+  },
+  "bugs": {
+    "url": "https://github.com/organizacion-sesion-3-Tamara-Climent/sesion5-integracion-continua/issues"
+  },
+  "homepage": "https://github.com/organizacion-sesion-3-Tamara-Climent/sesion5-integracion-continua#readme"
+}
